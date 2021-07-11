@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>khip form</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <p>Click on this button to login <button class="btn1">click me</button></p>
+    </div>
+
+    <div class="container2">
+        <div class="form">
+            <div class="close">&times</div>
+            <div class="text">
+                <img src="images/khip3.png" alt="images">
+                <h1>LOGIN</h1>
+            </div>
+            <form action="login.css" method="post" name="loginForm">
+                <div class="form-control">
+                <label for="username"><strong> Username</strong></label><br>
+                <input type="email" placeholder="name@gmail.com" id="user" name="username">
+                <small>error message</small>
+                <br><br>
+                </div>
+                <div class="form-control">
+                <label for="password"><strong> Password</strong></label><br>
+                <input type="password" placeholder="password" id="password" name="password">
+                <small>error message</small>
+                <br><br><br>
+                </div>
+                <button type="submit" class="btn2">LOGIN</button><br><br>
+                <div class="check">
+                <input type="checkbox" id="check">
+                <label for="checkbox"><strong>Remember me</strong></label>
+                <span><a href="#">Forget password?</a></span>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    
+
+    <script src="login.js"></script>
+</body>
+</html>
